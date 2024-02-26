@@ -17,6 +17,8 @@ public class CriticalPancake : Pancake
         gameObject.tag = "Explosion";
 
         EffectsManager.instance.ActivateScreenShake(1f, 1.1f);
+
+        Debug.Log("You got the critical flip! You win!");
     }
 
 }
